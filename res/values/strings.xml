@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GhostHunter</string>
+    <string name="action_settings">Options</string>
+    <string name="action_stats">Stats</string>
+     <string name="action_shop">Shop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="options"> Options </string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_stats">Stats</string>
+    <string name="title_activity_shop">Shop</string>
+
+</resources>

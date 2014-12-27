@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_mist"
+    tools:context=".Shop" >
+
+    <Button
+        android:id="@+id/bombbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bluebonesbutton"
+        android:layout_alignRight="@+id/whitebonesbutton"
+        android:layout_below="@+id/bluebonesbutton"
+        android:layout_marginTop="84dp"
+        android:text="Buy Bombs (100 Gold)"
+        android:onClick="buyBomb"/> />
+
+    <Button
+        android:id="@+id/whitebonesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bluebonesbutton"
+        android:layout_below="@+id/bluebonesbutton"
+        android:layout_marginTop="17dp"
+        android:background="#FFFFFF"
+        android:text="Buy White Bones (30 Gold)"
+         android:onClick="buyWhiteBones"/> />
+
+    <Button
+        android:id="@+id/bluebonesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/redbonesbutton"
+        android:layout_below="@+id/redbonesbutton"
+        android:layout_marginTop="19dp"
+        android:background="#009ACD"
+        android:text="Buy Blue Bones (30 Gold)" 
+        android:onClick="buyBlueBones"/>
+
+    <Button
+        android:id="@+id/redbonesbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="65dp"
+        android:background="#FF0000"
+        android:text="Buy Red Bones (30 Gold)"
+         android:onClick="buyRedBones"/>
+
+    <Button
+        android:id="@+id/usebombbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/redbonesbutton"
+        android:layout_below="@+id/bombbutton"
+        android:layout_marginRight="53dp"
+        android:layout_marginTop="40dp"
+        android:text="Use Bomb"
+         android:onClick="useBomb"/> />
+ />
+
+</RelativeLayout>
